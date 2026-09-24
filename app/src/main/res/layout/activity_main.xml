@@ -16,35 +16,16 @@
         android:gravity="center"
         android:textSize="18sp" />
     <!-- Responsive Layout1 white area -->
-    <LinearLayout
+    <TextView
+        android:id="@+id/tvResponsive"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2.4"
-        android:orientation="horizontal">
-
-        <!-- Responsive Layout -->
-        <TextView
-            android:id="@+id/tvResponsive"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/responsive_layout"
-            android:background="#FFFFFF"
-            android:textColor="#000000"
-            android:gravity="center"
-            android:textSize="18sp" />
-
-        <!-- Android Application -->
-        <TextView
-            android:id="@+id/tvApp"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="@string/android_app"
-            android:textColor="#FFFFFF"
-            android:gravity="center"
-            android:textSize="18sp" />
-
+        android:layout_weight="1"
+        android:text="@string/responsive_layout"
+        android:background="#FFFFFF"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textSize="18sp" />
     <!-- Four color horizontal bar -->
     <LinearLayout
         android:layout_width="match_parent"
