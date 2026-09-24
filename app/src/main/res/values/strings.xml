@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Responsive Layout 2</string>
+
+    <string name="lab1">Lab 1</string>
+    <string name="responsive_layout">Responsive Layout</string>
+
+    <string name="text_this">THIS</string>
+    <string name="text_is">IS</string>
+    <string name="text_my">MY</string>
+    <string name="text_first">FIRST</string>
+
+    <string name="android_app">Android Application</string>
+
+    <string name="change">CHANGE</string>
+    <string name="cancel">CANCEL</string>
+
+</resources>
