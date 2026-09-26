@@ -137,6 +137,7 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="12dp"
                 android:textSize="20sp"
+                android:maxLines="1"
                 android:text="@string/change" />
 
             <Button
@@ -148,6 +149,7 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="12dp"
                 android:textSize="20sp"
+                android:maxLines="1"
                 android:text="@string/cancel" />
 
         </LinearLayout>
