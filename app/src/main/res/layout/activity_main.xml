@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#000000"
-    android:fitsSystemWindows="false">
+    android:fitsSystemWindows="false"
+    android:orientation="vertical">
     <!-- Lab1 top black block -->
     <TextView
         android:id="@+id/tvLab"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
+        android:gravity="center"
         android:text="@string/lab1"
         android:textColor="#FFFFFF"
-        android:gravity="center"
         android:textSize="18sp" />
     <!-- Responsive Layout1 white area -->
     <TextView
@@ -21,10 +22,10 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:text="@string/responsive_layout"
         android:background="#FFFFFF"
-        android:textColor="#000000"
         android:gravity="center"
+        android:text="@string/responsive_layout"
+        android:textColor="#000000"
         android:textSize="18sp" />
     <!-- Four color horizontal bar -->
     <LinearLayout
@@ -37,40 +38,40 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/text_this"
             android:background="#B00020"
-            android:textColor="#FFFFFF"
             android:gravity="center"
+            android:text="@string/text_this"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/text_is"
             android:background="#00008B"
-            android:textColor="#FFFFFF"
             android:gravity="center"
+            android:text="@string/text_is"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/text_my"
             android:background="#512DA8"
-            android:textColor="#FFFFFF"
             android:gravity="center"
+            android:text="@string/text_my"
+            android:textColor="#FFFFFF"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="@string/text_first"
             android:background="#FFFF00"
-            android:textColor="#000000"
             android:gravity="center"
+            android:text="@string/text_first"
+            android:textColor="#000000"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -80,34 +81,34 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1.6"
+        android:gravity="center"
         android:text="@string/android_app"
         android:textColor="#FFFFFF"
-        android:gravity="center"
         android:textSize="18sp" />
     <!-- Bottom button container -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.6"
-        android:orientation="horizontal"
         android:background="#FFFFFF"
-        android:gravity="center">
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <Button
             android:id="@+id/btnChange"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/change"
             android:layout_marginEnd="12dp"
-            android:minWidth="120dp"/>
+            android:minWidth="120dp"
+            android:text="@string/change" />
 
         <Button
             android:id="@+id/btnCancel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cancel"
             android:layout_marginStart="12dp"
-            android:minWidth="120dp"/>
+            android:minWidth="120dp"
+            android:text="@string/cancel" />
     </LinearLayout>
 
 
